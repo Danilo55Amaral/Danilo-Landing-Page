@@ -27,7 +27,7 @@ export default function Header() {
         <div className="flex items-center justify-around w-2/5 rounded-full bg-transparent backdrop-blur-sm">
           <Link
             href="#"
-            aria-label="Link para seção de sobre do site"
+            aria-label="Link para seção de home do site"
             className="text-white"
           >
             Home
@@ -39,13 +39,25 @@ export default function Header() {
           >
             Sobre
           </Link>
-          <Link href="#" aria-label="Portifólio" className="text-white">
+          <Link
+            href="#"
+            aria-label="Link para seção de habilidades do site"
+            className="text-white"
+          >
             Habilidades
           </Link>
-          <Link href="#" aria-label="Portifólio" className="text-white">
+          <Link
+            href="#"
+            aria-label="Link para seção de porfolio do site"
+            className="text-white"
+          >
             Portfolio
           </Link>
-          <Link href="#" aria-label="Portifólio" className="text-white">
+          <Link
+            href="#"
+            aria-label="Link para seção de certificados do site"
+            className="text-white"
+          >
             Certificados
           </Link>
         </div>
@@ -85,8 +97,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/">
                   <Button
-                    variant="outline"
-                    className="w-full justify-start gap-2 text-white"
+                    variant="project"
                   >
                     <HomeIcon size={16} />
                     Home
@@ -97,8 +108,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/">
                   <Button
-                    variant="outline"
-                    className="w-full justify-start gap-2 text-white"
+                    variant="project"
                   >
                     <Heart size={16} />
                     Sobre
@@ -109,8 +119,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/catalog">
                   <Button
-                    variant="outline"
-                    className="w-full justify-start gap-2 text-white"
+                    variant="project"
                   >
                     <ListOrderedIcon size={16} />
                     Habilidades
@@ -121,8 +130,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/catalog">
                   <Button
-                    variant="outline"
-                    className="w-full justify-start gap-2 text-white"
+                    variant="project"
                   >
                     <ListOrderedIcon size={16} />
                     Potfolio
@@ -133,8 +141,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/catalog">
                   <Button
-                    variant="outline"
-                    className="w-full justify-start gap-2 text-white"
+                    variant="project"
                   >
                     <ListOrderedIcon size={16} />
                     Certificados
