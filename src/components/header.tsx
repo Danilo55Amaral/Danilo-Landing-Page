@@ -10,6 +10,8 @@ import {
 } from "./ui/sheet";
 import { Button } from "./ui/button";
 import {
+  Bot,
+  Code2,
   Heart,
   HomeIcon,
   ListOrderedIcon,
@@ -63,7 +65,7 @@ export default function Header() {
         </div>
         <Button variant="primary">CONTATO</Button>
       </Card>
-      <Card className="flex items-center border-none lg:hidden bg-transparent justify-between p-[1.875rem]">
+      <Card className="flex items-center border-none lg:hidden bg-transparent top-0 w-full z-10 absolute justify-between p-[1.875rem]">
         <Sheet>
           <SheetTrigger asChild>
             <Button size="icon" variant="mobileMenu">
@@ -106,7 +108,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/">
                   <Button variant="project">
-                    <Heart size={16} />
+                    <Bot size={16} />
                     Sobre
                   </Button>
                 </Link>
@@ -115,7 +117,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/catalog">
                   <Button variant="project">
-                    <ListOrderedIcon size={16} />
+                    <Code2 size={16} />
                     Habilidades
                   </Button>
                 </Link>
@@ -124,7 +126,7 @@ export default function Header() {
               <SheetClose asChild>
                 <Link href="/catalog">
                   <Button variant="project">
-                    <ListOrderedIcon size={16} />
+                    <Heart size={16} />
                     Potfolio
                   </Button>
                 </Link>
