@@ -61,7 +61,11 @@ export default function Header() {
             Certificados
           </Link>
         </div>
-        <Button>CONTATO</Button>
+        <Button
+          variant="primary"
+        >
+          CONTATO
+        </Button>
       </Card>
       <Card className="flex items-center lg:hidden bg-transparent justify-between p-[1.875rem]">
         <Sheet>

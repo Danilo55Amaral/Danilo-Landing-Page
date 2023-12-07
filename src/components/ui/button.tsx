@@ -18,7 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        project: "w-full border border-blue-700 justify-start gap-2 text-blue-700 bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500"
+        project: "w-full border border-blue-700 justify-start gap-2 text-blue-700 bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500",
+        primary: "border border-blue-700 text-blue-700 font-bold rounded-full w-40 bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500",
       },
       size: {
         default: "h-10 px-4 py-2",
