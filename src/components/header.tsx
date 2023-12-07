@@ -61,16 +61,12 @@ export default function Header() {
             Certificados
           </Link>
         </div>
-        <Button
-          variant="primary"
-        >
-          CONTATO
-        </Button>
+        <Button variant="primary">CONTATO</Button>
       </Card>
-      <Card className="flex items-center lg:hidden bg-transparent justify-between p-[1.875rem]">
+      <Card className="flex items-center border-none lg:hidden bg-transparent justify-between p-[1.875rem]">
         <Sheet>
           <SheetTrigger asChild>
-            <Button size="icon" variant="outline">
+            <Button size="icon" variant="mobileMenu">
               <MenuIcon />
             </Button>
           </SheetTrigger>
@@ -100,9 +96,7 @@ export default function Header() {
             <div className="mt-4 flex flex-col gap-2">
               <SheetClose asChild>
                 <Link href="/">
-                  <Button
-                    variant="project"
-                  >
+                  <Button variant="project">
                     <HomeIcon size={16} />
                     Home
                   </Button>
@@ -111,9 +105,7 @@ export default function Header() {
 
               <SheetClose asChild>
                 <Link href="/">
-                  <Button
-                    variant="project"
-                  >
+                  <Button variant="project">
                     <Heart size={16} />
                     Sobre
                   </Button>
@@ -122,9 +114,7 @@ export default function Header() {
 
               <SheetClose asChild>
                 <Link href="/catalog">
-                  <Button
-                    variant="project"
-                  >
+                  <Button variant="project">
                     <ListOrderedIcon size={16} />
                     Habilidades
                   </Button>
@@ -133,9 +123,7 @@ export default function Header() {
 
               <SheetClose asChild>
                 <Link href="/catalog">
-                  <Button
-                    variant="project"
-                  >
+                  <Button variant="project">
                     <ListOrderedIcon size={16} />
                     Potfolio
                   </Button>
@@ -144,9 +132,7 @@ export default function Header() {
 
               <SheetClose asChild>
                 <Link href="/catalog">
-                  <Button
-                    variant="project"
-                  >
+                  <Button variant="project">
                     <ListOrderedIcon size={16} />
                     Certificados
                   </Button>
@@ -158,13 +144,17 @@ export default function Header() {
 
         <Link href="/">
           <h1 className="text-lg text-white font-semibold">
-            <span className="text-green-800">Danilo</span> Amaral
+            <span className="text-blue-700">Danilo</span> Amaral
           </h1>
         </Link>
 
-        <Button size="icon" variant="outline">
-          <ShoppingCartIcon />
-        </Button>
+        <Avatar>
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/75812281?v=4"
+            alt="Avatar"
+          />
+          <AvatarFallback>DA</AvatarFallback>
+        </Avatar>
       </Card>
     </>
   );
