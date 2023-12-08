@@ -25,46 +25,51 @@ export default function Header() {
   return (
     <>
       <Card className="hidden pl-4 pr-4 lg:flex border-none justify-around items-center pt-3 bg-transparent top-0 w-full z-10 absolute rounded-none shadow-inherit">
-        <span className="text-white">Danilo Amaral</span>
-        <div className="flex items-center justify-around w-2/5 rounded-full bg-transparent backdrop-blur-sm">
-          <Link
-            href="#"
-            aria-label="Link para seção de home do site"
-            className="text-white"
-          >
+        <h1 className="text-lg text-white font-semibold">
+          <span className="text-blue-700">Danilo</span> Amaral
+        </h1>
+
+        <div className="flex items-center justify-around w-2/5 h-10 rounded-full bg-gray-500 text-gray-300  font-semibold">
+          <Link 
+            href="#" 
+            aria-label="Link para seção de home do site" 
+            className="hover:text-white"
+            >
             Home
           </Link>
-          <Link
-            href="#"
+          <Link 
+            href="#" 
             aria-label="Link para seção de sobre do site"
-            className="text-white"
-          >
+            className="hover:text-white"
+            >
             Sobre
           </Link>
-          <Link
-            href="#"
+          <Link 
+            href="#" 
             aria-label="Link para seção de habilidades do site"
-            className="text-white"
-          >
+            className="hover:text-white"
+            >
             Habilidades
           </Link>
-          <Link
-            href="#"
+          <Link 
+            href="#" 
             aria-label="Link para seção de porfolio do site"
-            className="text-white"
-          >
+            className="hover:text-white"
+            >
             Portfolio
           </Link>
-          <Link
-            href="#"
+          <Link 
+            href="#" 
             aria-label="Link para seção de certificados do site"
-            className="text-white"
-          >
+            className="hover:text-white"
+            >
             Certificados
           </Link>
         </div>
+
         <Button variant="primary">CONTATO</Button>
       </Card>
+
       <Card className="flex items-center border-none lg:hidden bg-transparent top-0 w-full z-10 absolute justify-between p-[1.875rem]">
         <Sheet>
           <SheetTrigger asChild>

@@ -7,7 +7,7 @@ export default function Home() {
       <Banner src="/image-background.png" alt="Imagem de Fundo" />
       <div className="flex items-center h-full justify-center">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full z-10 absolute">
-          <p className="text-white text-justify lg:w-1/3 w-full">
+          <p className="text-white font-semibold text-justify lg:w-1/3 w-full">
             Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
             como freelancer e também alguns projetos que construir, meu objetivo
             é transformar de forma positiva a vida das pessoas através da
