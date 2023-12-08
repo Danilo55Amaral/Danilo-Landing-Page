@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Banner from "./components/banner";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -7,12 +8,18 @@ export default function Home() {
       <Banner src="/image-background.png" alt="Imagem de Fundo" />
       <div className="flex items-center h-full justify-center">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full z-10 absolute">
-          <p className="text-white font-semibold text-justify lg:w-1/3 w-full">
-            Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
-            como freelancer e também alguns projetos que construir, meu objetivo
-            é transformar de forma positiva a vida das pessoas através da
-            tecnologia.
-          </p>
+          <div className="flex flex-col items-center gap-6 lg:w-1/3 w-full">
+            <p className="text-white font-semibold text-justify w-[90%]">
+              Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
+              como freelancer e também alguns projetos que construir, minha
+              missão é transformar de forma positiva a vida das pessoas através
+              da tecnologia.
+            </p>
+            <div className="flex items-center justify-center gap-6 h-16 w-full bg-background lg:bg-transparent">
+              <Button variant="primary">Contato</Button>
+              <Button variant="primary">Portfólio</Button>
+            </div>
+          </div>
           <Image
             src="/image-astronauta.png"
             height={0}
