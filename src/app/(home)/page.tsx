@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import About from "./components/about";
 import Skills from "./components/skills";
 import { TypeAnimation } from "react-type-animation";
+import Portfolio from "./components/portfolio";
 
 export default function Home() {
   return (
@@ -62,6 +63,9 @@ export default function Home() {
       </section>
       <section id="skills" className="mt-20">
         <Skills />
+      </section>
+      <section id="portfolio" className="mt-20">
+        <Portfolio />
       </section>
     </>
   );
