@@ -13,28 +13,27 @@ export default function About() {
                 Sobre mim
               </h1>
               <p className="text-white text-justify mt-3">
-                Me chamo Danilo Amaral tenho 27 anos e sou natural de Vitória de
+                Me chamo Danilo Amaral tenho 28 anos e sou natural de Vitória de
                 Santo Antão Pernambuco, sou graduado em Análise e
                 Desenvolvimento de Sistemas pelo Centro Universitário Leonardo
                 Da Vinci (UNIASSELVI) e Pós graduado em Ciência de Dados também
                 pela mesma instituição.
                 <br />
                 <br />
-                Desenvolvedor web tenho experiência em desenvolvimento front-end
-                com projetos pessoais e como freelancer utilizando tecnologias
-                modernas como React, Next, Typescript, Styled-Components,
-                Tailwind CSS e outras ferramentas utilizadas no front end.
-                Estagiei na CMTECH onde adquirir experiência no back end com php
-                utilizando o ScriptCase que é um gerador de aplicações que
-                suporta o Licenciamento Ambiental de Pernambuco, além disso
-                também utilizei MySQL e Workbench. Dentro da CMTECH trabalhei
-                com metodologia SCRUM onde pude ter vivência com essa
-                metodologia ágil para o desenvolvimento de software.
+                Desenvolvedor web tenho experiência em desenvolvimento front-end 
+                com projetos pessoais e com consultorias utilizando tecnologias 
+                modernas como React, Next, Typescript, Styled-Components, Tailwind CSS 
+                e outras ferramentas utilizadas no front end. Como consultor já atuei em 
+                projetos de loja virtual, portfólio e sistema de CRM.
                 <br />
-                Hoje estudo tecnologias back end como Node.js, criação de API
-                RESTful com Node.js, tecnologias como Fastify, Knex, Zod,
-                SQLite, PostgreSQL, realização de testes automatizados, testes
-                e2e e testes unitários utilizando bibliotecas como Vitest.
+                Estagiei na CMTECH onde adquirir experiência no front end e back end, com ScriptCase
+                 que é um gerador de aplicações low code, que gera código em php, JavaScript, Css, Ajax 
+                 e Html, para o ERP Silia, que gerenciava o Licenciamento Ambiental de Pernambuco e que 
+                 atendia cerca de 40.000 empresas. Além disso também utilizei o banco de dados MySQL com 
+                 a interface Workbench. Dentro da CMTECH trabalhei com metodologia SCRUM (09/2021 a 06/2022) 
+                 em uma equipe com cerca de 10 pessoas, onde pude ter vivência com metodologia ágil para o 
+                 desenvolvimento de software. Minhas entregas foram feitas nos sistemas Silia (ERP) e 
+                 SiliaWeb (sistema de solicitação da licença ambiental, transações sem papel).
                 <br />
                 <br />
                 Iniciei na área de TI em 2019 quando trabalhei na Brisanet
@@ -44,11 +43,6 @@ export default function About() {
                 de Sistemas e pude aprender mais sobre o mundo da programação e
                 me tornar um programador.
                 <br />
-                <br />
-                Atualmente trabalho como freelancer desenvolvendo sistemas web e
-                buscando a melhor solução em tecnologia para meus clientes,
-                entre em contato comigo agora mesmo e comece a sua transformação
-                digital.
               </p>
             </div>
             <Image

@@ -27,6 +27,23 @@ export default function Portfolio() {
         >
           <CarouselContent>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+              <Link href="https://site-junior-ribeiro.vercel.app">
+                <div className="p-1">
+                  <Card className="bg-dark200 border-dark200">
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <ImagePortfolio
+                        src="/junior-rib.PNG"
+                        alt="Eu Sou Junior"
+                      />
+                    </CardContent>
+                  </Card>
+                  <span className="text-xl font-semibold text-white">
+                    Ultima entrega realizada, site de portfolio Eu Sou Junior.
+                  </span>
+                </div>
+              </Link>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <Link href="https://github.com/Danilo55Amaral/dtmoney2.0">
                 <div className="p-1">
                   <Card className="bg-dark200 border-dark200">

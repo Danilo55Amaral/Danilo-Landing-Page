@@ -21,11 +21,11 @@ export default function Home() {
               <br />
               <TypeAnimation
                 sequence={[
-                  "Desenvolvedor Web 🚀",
+                  "Software Engineer 👨🏼‍💻",
                   1000,
-                  "Desenvolvedor React ⚛️",
+                  "Consultor em Tecnologia ⚛️",
                   2000,
-                  "Desenvolvedor Front-end 👨🏼‍💻",
+                  "Desenvolvedor de Software 🚀",
                   3000,
                 ]}
                 wrapper="span"
@@ -36,7 +36,7 @@ export default function Home() {
             </h1>
             <p className="text-white font-semibold text-justify w-[90%]">
               Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
-              como freelancer e também alguns projetos que construir, minha
+              com consultorias em tecnologia e também alguns projetos que construir, minha
               missão é transformar de forma positiva a vida das pessoas através
               da tecnologia.
             </p>
