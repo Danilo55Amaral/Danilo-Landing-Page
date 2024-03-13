@@ -81,3 +81,16 @@
     @apply h-full;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(15 23 42);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(224, 76%, 48%);
+  border-radius: 10px;
+}
