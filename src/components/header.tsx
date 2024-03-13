@@ -20,6 +20,7 @@ import {
   ShoppingCartIcon,
 } from "lucide-react";
 import { Separator } from "./ui/separator";
+import { CallCenter } from "./call-center";
 
 export default function Header() {
   return (
@@ -67,7 +68,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <Button variant="primary">CONTATO</Button>
+        <CallCenter />
       </Card>
 
       <Card className="flex fixed items-center border-none lg:hidden bg-transparent top-0 w-full z-10 justify-between p-[1.875rem]">

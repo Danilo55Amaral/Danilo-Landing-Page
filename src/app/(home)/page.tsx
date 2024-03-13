@@ -7,6 +7,7 @@ import About from "./components/about";
 import Skills from "./components/skills";
 import { TypeAnimation } from "react-type-animation";
 import Portfolio from "./components/portfolio";
+import { CallCenter } from "@/components/call-center";
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
               da tecnologia.
             </p>
             <div className="flex items-center justify-center gap-6 h-16 w-full bg-background lg:bg-transparent">
-              <Button variant="primary">Contato</Button>
+              <CallCenter />
               <Button variant="primary">Portfólio</Button>
             </div>
           </div>
