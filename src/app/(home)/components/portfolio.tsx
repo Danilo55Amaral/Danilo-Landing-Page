@@ -17,8 +17,8 @@ export default function Portfolio() {
       <h1 className="text-white text-2xl font-bold">
         Confira meus <span className="text-blue-700">Projetos</span>
       </h1>
-      <div className="flex flex-col items-center justify-center w-full">
-        <span className="text-blue-700 font-semibold">Trilha Front End</span>
+      <div className="flex flex-col items-center justify-center w-full gap-3">
+        <span className="text-blue-700 font-semibold text-xl">Trilha Front End</span>
         <Carousel
           opts={{
             align: "start",
@@ -37,7 +37,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Ultima entrega realizada, site de portfolio Eu Sou Junior.
                   </span>
                 </div>
@@ -54,7 +54,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     DT Money 2.0 (Nova versão do Sistema de controle de finanças
                     com novas funcionalidades e um visual mais clean)
                   </span>
@@ -72,7 +72,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Template Administrativo (Sistema administrativo com Login
                     utilizando o API firebase do Google)
                   </span>
@@ -90,7 +90,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Ignite Timer (Projeto de Temporizador)
                   </span>
                 </div>
@@ -107,7 +107,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Dt Money (Sistema de Controle de Finanças)
                   </span>
                 </div>
@@ -124,7 +124,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Quiz Projeto FullStack (Quiz de Perguntas e respostas)
                   </span>
                 </div>
@@ -141,7 +141,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Monty Hall (Jogo da porta misteriosa, descubra em qual porta
                     está o presente)
                   </span>
@@ -159,7 +159,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Projeto Lista de Tarefas
                   </span>
                 </div>
@@ -176,7 +176,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Calculadora (A Calculadora mais linda já criada ^-^)
                   </span>
                 </div>
@@ -190,7 +190,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/tec02.jpg" alt="GitHub" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Versionamento de Código com Git e GitHub
                   </span>
                 </div>
@@ -202,8 +202,8 @@ export default function Portfolio() {
         </Carousel>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-full">
-        <span className="text-blue-700 font-semibold">Trilha Back End</span>
+      <div className="flex flex-col items-center justify-center w-full gap-3">
+        <span className="text-blue-700 font-semibold text-xl">Trilha Back End</span>
         <Carousel
           opts={{
             align: "start",
@@ -219,7 +219,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/docker-post01.PNG" alt="Docker" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Rodando Banco de Dados com Docker
                   </span>
                 </div>
@@ -233,7 +233,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/tec02.jpg" alt="API Node" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     API Restful Nodejs (Nesse projeto foi desenvolvido uma API
                     utilizando Node com TypeScript e outras ferramentas)
                   </span>
@@ -248,7 +248,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/modelagem.PNG" alt="Modelagem" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Desafio Projeto Lógico de Banco de Dados
                   </span>
                 </div>
@@ -262,7 +262,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/tec02.jpg" alt="Node Fundamentos" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Fundamentos do Nodejs (API RESTful utilizando Node.JS feita
                     a mão sem o uso de quaisquer dependências externas)
                   </span>
@@ -280,7 +280,7 @@ export default function Portfolio() {
                       />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Projeto Lógico de Banco de Dados de uma Oficina
                   </span>
                 </div>
@@ -294,7 +294,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/mybank01.PNG" alt="MyBank" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     MyBank 2.0 (O MyBank é um sistema bancário desenvolvido em
                     Python capaz de realizar algumas operações bancárias)
                   </span>
@@ -307,8 +307,8 @@ export default function Portfolio() {
         </Carousel>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-full">
-        <span className="text-blue-700 font-semibold">Trilha Cientista de Dados</span>
+      <div className="flex flex-col items-center justify-center w-full gap-3">
+        <span className="text-blue-700 font-semibold text-xl">Trilha Cientista de Dados</span>
         <Carousel
           opts={{
             align: "start",
@@ -324,7 +324,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/pandas01.PNG" alt="Pandas" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                   Python para Ciência de Dados (Utilizando bibliotecas como Pandas e NumPy que são amplamente utilizadas em Ciência de Dados)
                   </span>
                 </div>
@@ -338,7 +338,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/docker-post01.PNG" alt="Docker" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Rodando Banco de Dados com Docker
                   </span>
                 </div>
@@ -352,7 +352,7 @@ export default function Portfolio() {
                       <ImagePortfolio src="/modelagem.PNG" alt="Modelagem" />
                     </CardContent>
                   </Card>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl text-white">
                     Desafio Projeto Lógico de Banco de Dados
                   </span>
                 </div>

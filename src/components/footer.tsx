@@ -27,7 +27,7 @@ export default function Footer() {
             <span className="hover:text-blue-700">Habilidades</span>
           </Link>
         </div>
-        <div className="flex flex-col gap-3 text-white">
+        <div className="flex flex-col gap-3 text-white font-semibold">
           <Link href="#" aria-label="Link para seção de Portfolio do site">
             <span className="hover:text-blue-700">Portfolio</span>
           </Link>
