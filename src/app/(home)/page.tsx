@@ -8,6 +8,7 @@ import Skills from "./components/skills";
 import { TypeAnimation } from "react-type-animation";
 import Portfolio from "./components/portfolio";
 import { CallCenter } from "@/components/call-center";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,13 +38,18 @@ export default function Home() {
             </h1>
             <p className="text-white font-semibold text-justify w-[90%]">
               Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
-              com consultorias em tecnologia e também alguns projetos que construir, minha
-              missão é transformar de forma positiva a vida das pessoas através
-              da tecnologia.
+              com consultorias em tecnologia e também alguns projetos que
+              construir, minha missão é transformar de forma positiva a vida das
+              pessoas através da tecnologia.
             </p>
             <div className="flex items-center justify-center gap-6 h-16 w-full bg-background lg:bg-transparent">
               <CallCenter />
-              <Button variant="primary">Portfólio</Button>
+              <Link
+                href="#portfolio"
+                aria-label="Link para seção de porfolio do site"
+              >
+                <Button variant="primary">Portfólio</Button>
+              </Link>
             </div>
           </div>
           <Image
