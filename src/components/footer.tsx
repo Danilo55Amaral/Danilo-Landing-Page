@@ -17,18 +17,18 @@ export default function Footer() {
           </Avatar>
         </Link>
         <div className="flex flex-col gap-3 text-white font-semibold">
-          <Link href="#" aria-label="Link para seção de Home do site">
+          <Link href="#home" aria-label="Link para seção de Home do site">
             <span className="hover:text-blue-700">Home</span>
           </Link>
-          <Link href="#" aria-label="Link para seção de Sobre do site">
+          <Link href="#about" aria-label="Link para seção de Sobre do site">
             <span className="hover:text-blue-700">Sobre</span>
           </Link>
-          <Link href="#" aria-label="Link para seção de Habilidades do site">
+          <Link href="#skills" aria-label="Link para seção de Habilidades do site">
             <span className="hover:text-blue-700">Habilidades</span>
           </Link>
         </div>
         <div className="flex flex-col gap-3 text-white font-semibold">
-          <Link href="#" aria-label="Link para seção de Portfolio do site">
+          <Link href="#portfolio" aria-label="Link para seção de Portfolio do site">
             <span className="hover:text-blue-700">Portfolio</span>
           </Link>
           <Link href="#" aria-label="Link para seção de Certificados do site">
