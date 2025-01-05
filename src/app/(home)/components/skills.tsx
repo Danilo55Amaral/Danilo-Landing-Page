@@ -1,4 +1,5 @@
 import {
+  SiAib,
   SiAngular,
   SiBootstrap,
   SiCss3,
@@ -15,6 +16,7 @@ import {
   SiMysql,
   SiNetlify,
   SiNextdotjs,
+  SiNodedotjs,
   SiNotion,
   SiNpm,
   SiPhp,
@@ -33,6 +35,10 @@ export default function Skills() {
     <div className="flex flex-col gap-6 justify-around items-center">
       <h1 className="text-white text-2xl font-bold">Minhas Habilidades</h1>
       <div className="grid grid-cols-2 ml-7 font-semibold px-4 text-xl lg:grid-cols-5 lg:ml-0">
+        <ul className="inline-flex gap-1 my-1 lg:my-3 text-blue-700">
+          <SiNodedotjs className="mt-1 lg:text-3xl lg:mt-0 text-blue-700" />
+          Node
+        </ul>
         <ul className="inline-flex gap-1 my-1 lg:my-3 text-blue-700">
           <SiReact className="mt-1 lg:text-3xl lg:mt-0 text-blue-700" />
           React
