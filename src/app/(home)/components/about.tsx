@@ -13,35 +13,37 @@ export default function About() {
                 Sobre mim
               </h1>
               <p className="text-white text-justify mt-3">
-                Me chamo Danilo Amaral tenho 28 anos e sou natural de Vitória de
-                Santo Antão Pernambuco, sou graduado em Análise e
+                Meu nome é Danilo Amaral, tenho 28 anos e sou natural de Vitória
+                de Santo Antão, Pernambuco. Sou graduado em Análise e
                 Desenvolvimento de Sistemas pelo Centro Universitário Leonardo
-                Da Vinci (UNIASSELVI) e Pós graduado em Ciência de Dados também
-                pela mesma instituição.
+                Da Vinci (UNIASSELVI) e pós-graduado em Ciência de Dados pela
+                mesma instituição.
                 <br />
                 <br />
-                Desenvolvedor web tenho experiência em desenvolvimento front-end 
-                com projetos pessoais e com consultorias utilizando tecnologias 
-                modernas como React, Next, Typescript, Styled-Components, Tailwind CSS 
-                e outras ferramentas utilizadas no front end. Como consultor já atuei em 
-                projetos de loja virtual, portfólio e sistema de CRM.
+                Desenvolvedor web tenho experiência em desenvolvimento
+                full-stack com projetos pessoais e consultorias, utilizando
+                tecnologias modernas como React, Next, TypeScript, Node.js,
+                MySQL, Docker e outras ferramentas utilizadas no mercado. Como
+                consultor, já atuei em projetos de loja virtual, portfólio,
+                sistema de CRM e desenvolvi um sistema de painel eletrônico para
+                a Câmara Municipal do município de Chã de Alegria.
                 <br />
-                Estagiei na CMTECH onde adquirir experiência no front end e back end, com ScriptCase
-                 que é um gerador de aplicações low code, que gera código em php, JavaScript, Css, Ajax 
-                 e Html, para o ERP Silia, que gerenciava o Licenciamento Ambiental de Pernambuco e que 
-                 atendia cerca de 40.000 empresas. Além disso também utilizei o banco de dados MySQL com 
-                 a interface Workbench. Dentro da CMTECH trabalhei com metodologia SCRUM (09/2021 a 06/2022) 
-                 em uma equipe com cerca de 10 pessoas, onde pude ter vivência com metodologia ágil para o 
-                 desenvolvimento de software. Minhas entregas foram feitas nos sistemas Silia (ERP) e 
-                 SiliaWeb (sistema de solicitação da licença ambiental, transações sem papel).
+                Durante meu estágio na CMTECH (setembro de 2021 a junho de
+                2022), adquiri experiência em desenvolvimento front-end com
+                React, JavaScript e TypeScript, e back-end utilizando Php e
+                ScriptCase, um gerador de aplicações low-code. Trabalhei com o
+                ERP Silia, gerenciando o licenciamento ambiental de Pernambuco
+                para cerca de 40.000 empresas. Além disso, utilizei o banco de
+                dados MySQL com a interface Workbench e desenvolvi habilidades
+                na metodologia SCRUM em equipe.
                 <br />
                 <br />
-                Iniciei na área de TI em 2019 quando trabalhei na Brisanet
-                telecomunicações e comecei a aprender sobre redes de
-                computadores, tecnologia wireless e tecnologia fibra óptica.
-                Iniciei meus estudos na área de TI em Análise e Desenvolvimento
-                de Sistemas e pude aprender mais sobre o mundo da programação e
-                me tornar um programador.
+                Iniciei minha jornada na área de TI em 2019, na Brisanet
+                Telecomunicações, onde aprendi sobre redes de computadores,
+                tecnologia wireless e fibra óptica. A partir daí, despertei meu
+                interesse pela programação, comecei a minha graduação em Análise
+                e Desenvolvimento de Sistemas, e me transformei em um
+                desenvolvedor.
                 <br />
               </p>
             </div>

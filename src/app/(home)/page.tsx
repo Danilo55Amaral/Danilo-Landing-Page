@@ -29,6 +29,8 @@ export default function Home() {
                   2000,
                   "Desenvolvedor de Software 🚀",
                   3000,
+                  "Ciêntista de Dados 👨🏻‍🔬",
+                  4000,
                 ]}
                 wrapper="span"
                 cursor={true}
@@ -37,10 +39,10 @@ export default function Home() {
               />
             </h1>
             <p className="text-white font-semibold text-justify w-[90%]">
-              Seja bem-vindo ao meu portfólio, conheça alguns dos meus trabalhos
-              com consultorias em tecnologia e também alguns projetos que
-              construir, minha missão é transformar de forma positiva a vida das
-              pessoas através da tecnologia.
+              Explorar, inovar, transformar. Seja bem-vindo ao meu universo
+              tecnológico! Aqui você encontrará projetos impactantes e
+              consultorias especializadas em tecnologia, desenvolvidos para melhorar vidas e
+              impulsionar o futuro.
             </p>
             <div className="flex items-center justify-center gap-6 h-16 w-full bg-background lg:bg-transparent">
               <CallCenter />
