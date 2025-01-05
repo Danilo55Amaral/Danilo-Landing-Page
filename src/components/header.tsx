@@ -31,39 +31,39 @@ export default function Header() {
         </h1>
 
         <div className="flex items-center justify-around w-2/5 h-10 rounded-full bg-gray-500 text-gray-300  font-semibold">
-          <Link 
-            href="#home" 
-            aria-label="Link para seção de home do site" 
+          <Link
+            href="#home"
+            aria-label="Link para seção de home do site"
             className="hover:text-white"
-            >
+          >
             Home
           </Link>
-          <Link 
-            href="#about" 
+          <Link
+            href="#about"
             aria-label="Link para seção de sobre do site"
             className="hover:text-white"
-            >
+          >
             Sobre
           </Link>
-          <Link 
-            href="#skills" 
+          <Link
+            href="#skills"
             aria-label="Link para seção de habilidades do site"
             className="hover:text-white"
-            >
+          >
             Habilidades
           </Link>
-          <Link 
-            href="#portfolio" 
+          <Link
+            href="#portfolio"
             aria-label="Link para seção de porfolio do site"
             className="hover:text-white"
-            >
+          >
             Portfolio
           </Link>
-          <Link 
-            href="#" 
+          <Link
+            href="#"
             aria-label="Link para seção de certificados do site"
             className="hover:text-white"
-            >
+          >
             Certificados
           </Link>
         </div>
@@ -71,7 +71,7 @@ export default function Header() {
         <CallCenter />
       </Card>
 
-      <Card className="flex fixed items-center border-none lg:hidden bg-transparent top-0 w-full z-10 justify-between p-[1.875rem]">
+      <Card className="flex fixed items-center border-none lg:hidden bg-transparent backdrop-filter backdrop-blur-md bg-opacity-50 top-0 w-full z-10 justify-between p-[1.875rem]">
         <Sheet>
           <SheetTrigger asChild>
             <Button size="icon" variant="mobileMenu">
@@ -102,7 +102,7 @@ export default function Header() {
             </div>
 
             <div className="mt-4 flex flex-col gap-2">
-              <SheetClose asChild >
+              <SheetClose asChild>
                 <Link href="#home" aria-label="Componente de ínicio">
                   <Button variant="project">
                     <HomeIcon size={16} />
@@ -111,7 +111,7 @@ export default function Header() {
                 </Link>
               </SheetClose>
 
-              <SheetClose asChild >
+              <SheetClose asChild>
                 <Link href="#about" aria-label="Componente de Sobre">
                   <Button variant="project">
                     <Bot size={16} />
@@ -120,7 +120,7 @@ export default function Header() {
                 </Link>
               </SheetClose>
 
-              <SheetClose asChild >
+              <SheetClose asChild>
                 <Link href="#skills" aria-label="Componente de Habilidades">
                   <Button variant="project">
                     <Code2 size={16} />
@@ -129,7 +129,7 @@ export default function Header() {
                 </Link>
               </SheetClose>
 
-              <SheetClose asChild >
+              <SheetClose asChild>
                 <Link href="#portfolio" aria-label="Componente de dPortfolio">
                   <Button variant="project">
                     <Heart size={16} />
@@ -138,7 +138,7 @@ export default function Header() {
                 </Link>
               </SheetClose>
 
-              <SheetClose asChild >
+              <SheetClose asChild>
                 <Link href="#" aria-label="Componente de Certificados">
                   <Button variant="project">
                     <ListOrderedIcon size={16} />
