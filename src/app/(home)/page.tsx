@@ -9,6 +9,8 @@ import { TypeAnimation } from "react-type-animation";
 import Portfolio from "./components/portfolio";
 import { CallCenter } from "@/components/call-center";
 import Link from "next/link";
+import Certification from "./components/certification";
+
 
 export default function Home() {
   return (
@@ -75,6 +77,9 @@ export default function Home() {
       </section>
       <section id="portfolio" className="mt-20">
         <Portfolio />
+      </section>
+      <section id="certification" className="mt-20">
+        <Certification />
       </section>
     </>
   );

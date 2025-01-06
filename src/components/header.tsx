@@ -60,7 +60,7 @@ export default function Header() {
             Portfolio
           </Link>
           <Link
-            href="#"
+            href="#certification"
             aria-label="Link para seção de certificados do site"
             className="hover:text-white"
           >
@@ -139,7 +139,7 @@ export default function Header() {
               </SheetClose>
 
               <SheetClose asChild>
-                <Link href="#" aria-label="Componente de Certificados">
+                <Link href="#certification" aria-label="Componente de Certificados">
                   <Button variant="project">
                     <ListOrderedIcon size={16} />
                     Certificados
