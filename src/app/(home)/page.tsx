@@ -11,6 +11,7 @@ import { CallCenter } from "@/components/call-center";
 import Link from "next/link";
 import Certification from "./components/certification";
 import Recommendation from "./components/recommendation";
+import Faq from "./components/faq";
 
 
 export default function Home() {
@@ -84,6 +85,9 @@ export default function Home() {
       </section>
       <section id="recommendation" className="mt-20">
         <Recommendation />
+      </section>
+      <section id="faq" className="mt-20 mb-40">
+        <Faq />
       </section>
     </>
   );
