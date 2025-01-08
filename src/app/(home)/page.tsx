@@ -10,6 +10,7 @@ import Portfolio from "./components/portfolio";
 import { CallCenter } from "@/components/call-center";
 import Link from "next/link";
 import Certification from "./components/certification";
+import Recommendation from "./components/recommendation";
 
 
 export default function Home() {
@@ -80,6 +81,9 @@ export default function Home() {
       </section>
       <section id="certification" className="mt-20">
         <Certification />
+      </section>
+      <section id="recommendation" className="mt-20">
+        <Recommendation />
       </section>
     </>
   );
