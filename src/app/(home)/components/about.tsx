@@ -13,7 +13,7 @@ export default function About() {
                 Sobre mim
               </h1>
               <p className="text-white text-justify mt-3">
-                Meu nome é Danilo Amaral, tenho 28 anos e sou natural de Vitória
+                Meu nome é Danilo Amaral, tenho 30 anos e sou natural de Vitória
                 de Santo Antão, Pernambuco. Sou graduado em Análise e
                 Desenvolvimento de Sistemas pelo Centro Universitário Leonardo
                 Da Vinci (UNIASSELVI) e pós-graduado em Ciência de Dados pela
@@ -44,6 +44,13 @@ export default function About() {
                 interesse pela programação, comecei a minha graduação em Análise
                 e Desenvolvimento de Sistemas, e me transformei em um
                 desenvolvedor.
+                <br />
+                <br />
+                Além da atuação como desenvolvedor, também atuo como Professor de Linguagem de 
+                Programação na rede de ensino Passaporte Edu. Lá, trabalho ensinando lógica, 
+                linguagem de programação e o desenvolvimento prático de Apps e jogos em 2D e 3D, 
+                compartilhando minha experiência de mercado e ajudando a formar novos profissionais 
+                para o ecossistema de tecnologia.
                 <br />
               </p>
             </div>
