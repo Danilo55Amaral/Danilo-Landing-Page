@@ -29,24 +29,6 @@ export default function Portfolio() {
         >
           <CarouselContent>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-              <Link href="https://mermake-santiago-store.vercel.app/">
-                <div className="p-1">
-                  <Card className="bg-dark200 border-dark200">
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
-                      <ImagePortfolio
-                        src="/mermake.jpeg"
-                        alt="Mermake Santiago"
-                      />
-                    </CardContent>
-                  </Card>
-                  <span className="text-xl text-white">
-                    Mermake Santiago: Uma plataforma de e-commerce inovadora
-                    para compras online seguras e práticas.
-                  </span>
-                </div>
-              </Link>
-            </CarouselItem>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <Link href="#">
                 <div className="p-1">
                   <Card className="bg-dark200 border-dark200">
@@ -249,21 +231,6 @@ export default function Portfolio() {
           className="w-3/4"
         >
           <CarouselContent>
-            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-              <Link href="https://mermake-santiago-store.vercel.app/">
-                <div className="p-1">
-                  <Card className="bg-dark200 border-dark200">
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
-                      <ImagePortfolio src="/mermake.jpeg" alt="Mermake API" />
-                    </CardContent>
-                  </Card>
-                  <span className="text-xl text-white">
-                    Mermake Santiago API: API desenvolvida para a plataforma de
-                    e-commerce.
-                  </span>
-                </div>
-              </Link>
-            </CarouselItem>
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <Link href="https://github.com/Danilo55Amaral/Utilizando-Docker-com-Banco-de-dados">
                 <div className="p-1">
