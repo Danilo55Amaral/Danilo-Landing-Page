@@ -15,10 +15,10 @@ export default function Portfolio() {
   return (
     <div className="flex flex-col items-center justify-center gap-20">
       <h1 className="text-white text-2xl font-bold">
-        Confira meus <span className="text-blue-700">Projetos</span>
+        Confira meus <span className="text-emerald-400 [text-shadow:0_0_12px_rgba(52,211,153,0.6)]">Projetos</span>
       </h1>
       <div className="flex flex-col items-center justify-center w-full gap-3">
-        <span className="text-blue-700 font-semibold text-xl">
+        <span className="text-amber-400 font-semibold text-xl">
           Trilha Front End
         </span>
         <Carousel
@@ -221,7 +221,7 @@ export default function Portfolio() {
       </div>
 
       <div className="flex flex-col items-center justify-center w-full gap-3">
-        <span className="text-blue-700 font-semibold text-xl">
+        <span className="text-amber-400 font-semibold text-xl">
           Trilha Back End
         </span>
         <Carousel
@@ -343,7 +343,7 @@ export default function Portfolio() {
       </div>
 
       <div className="flex flex-col items-center justify-center w-full gap-3">
-        <span className="text-blue-700 font-semibold text-xl">
+        <span className="text-amber-400 font-semibold text-xl">
           Trilha Cientista de Dados
         </span>
         <Carousel

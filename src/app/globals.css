@@ -91,6 +91,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(224, 76%, 48%);
+  background-color: hsl(158, 64%, 52%);
   border-radius: 10px;
+  box-shadow: 0 0 8px 1px hsla(158, 64%, 52%, 0.6);
 }

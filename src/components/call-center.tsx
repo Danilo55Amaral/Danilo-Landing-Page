@@ -74,7 +74,7 @@ export function CallCenter() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="primary">Contato</Button>
+        <Button variant="definitive">Contato</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>

@@ -52,7 +52,7 @@ export default function Home() {
                 href="#portfolio"
                 aria-label="Link para seção de porfolio do site"
               >
-                <Button variant="primary">Portfólio</Button>
+                <Button variant="definitive">Portfólio</Button>
               </Link>
             </div>
           </div>

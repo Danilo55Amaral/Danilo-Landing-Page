@@ -9,7 +9,7 @@ export default function About() {
         <div className="flex items-center justify-center mt-10 mb-10 w-5/6 bg-[#31241E] rounded-lg">
           <div className="md:flex gap-6 w-11/12 pt-10 pb-10">
             <div id="text">
-              <h1 className="text-white  text-left text-2xl  md:text-4xl font-bold">
+              <h1 className="text-amber-400  text-left text-2xl  md:text-4xl font-bold">
                 Sobre mim
               </h1>
               <p className="text-white text-justify mt-3">

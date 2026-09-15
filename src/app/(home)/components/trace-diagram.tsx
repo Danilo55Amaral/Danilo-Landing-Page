@@ -41,7 +41,7 @@ export default function TraceDiagram() {
             <text x="66" y={n.y + 4} className="fill-white text-sm font-medium">
               {n.label}
             </text>
-            <text x="66" y={n.y + 20} className="fill-neutral-500 text-xs font-mono">
+            <text x="66" y={n.y + 20} className="fill-emerald-400 text-xs [text-shadow:0_0_12px_rgba(52,211,153,0.6) font-mono">
               {n.year}
             </text>
           </g>
