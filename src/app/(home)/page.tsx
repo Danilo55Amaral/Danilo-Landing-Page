@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Banner from "./components/banner";
 import { Button } from "@/components/ui/button";
 import About from "./components/about";
@@ -12,18 +11,18 @@ import Link from "next/link";
 import Certification from "./components/certification";
 import Recommendation from "./components/recommendation";
 import Faq from "./components/faq";
-
+import TraceDiagram from "./components/trace-diagram";
 
 export default function Home() {
   return (
     <>
       <Banner src="/image-background.png" alt="Imagem de Fundo" />
       <section id="home" className="flex items-center h-full justify-center">
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full z-10 absolute">
-          <div className="flex flex-col items-center gap-6 lg:w-1/3 w-full">
-            <h1 className="text-white font-bold text-center">
+        <div className="flex flex-col lg:flex-row items-center justify-center w-full z-10 absolute inset-x-0 mx-auto max-w-6xl px-6 lg:px-10 gap-10 lg:gap-16">
+          <div className="flex flex-col items-center lg:items-start gap-6 lg:w-1/2 w-full">
+            <h1 className="text-amber-400 font-bold text-center lg:text-left">
               Prazer,{" "}
-              <span className="text-blue-700 text-2xl">Danilo Amaral 👨🏼‍💻</span>{" "}
+              <span className="text-emerald-400 text-2xl [text-shadow:0_0_12px_rgba(52,211,153,0.6)]">Danilo Amaral 👨🏼‍💻</span>{" "}
               <br />
               <TypeAnimation
                 sequence={[
@@ -42,13 +41,12 @@ export default function Home() {
                 style={{ fontSize: "1em", display: "inline-block" }}
               />
             </h1>
-            <p className="text-white font-semibold text-justify w-[90%]">
-              Explorar, inovar, transformar. Seja bem-vindo ao meu universo
-              tecnológico! Aqui você encontrará projetos impactantes e
-              consultorias especializadas em tecnologia, desenvolvidos para melhorar vidas e
-              impulsionar o futuro.
+            <p className="text-white font-semibold text-justify lg:text-left w-[90%]">
+              Comecei mexendo em fibra óptica e redes wireless. Hoje construo
+              sistemas web de ponta a ponta — do painel eletrônico de uma câmara
+              municipal a ferramentas de controle financeiro.
             </p>
-            <div className="flex items-center justify-center gap-6 h-16 w-full bg-background lg:bg-transparent">
+            <div className="flex items-center justify-center lg:justify-start gap-6 h-16 w-full bg-background lg:bg-transparent">
               <CallCenter />
               <Link
                 href="#portfolio"
@@ -58,17 +56,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <Image
-            src="/image-astronauta.png"
-            height={0}
-            width={0}
-            sizes="100vw"
-            className="h-auto max-h-[40%] lg:max-h-[30%] w-auto max-w-[50%] lg:max-w-[20%]"
-            style={{
-              objectFit: "contain",
-            }}
-            alt="Astronauta"
-          />
+          <div className="flex justify-center w-full lg:w-1/2">
+            <TraceDiagram />
+          </div>
         </div>
       </section>
       <section id="about" className="mt-6">
